@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link rel="icon" href="./icon.png" type="image/png">
+    <script async src="https://www.tiktok.com/embed.js\"></script>
+    <script src="./code.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/8f01e46bf8.js" crossorigin="anonymous"></script>
+    <title>Black Umbrella</title>
+</head>
+<body>
+    <div id="background">
+        <header id="header">
+            <div id="menu">
+                <img src="./icon.png" style="height: 150px; width: 180px;">
+                <div class="item-header" onclick="change_page_home()">
+                    <h2>Início</h2>
+                </div>
+                <div class="item-header" onclick="change_page_wwa()">
+                    <h2>Quem Somos</h2>
+                </div>
+                <div class="item-header" onclick="change_page_partner()">
+                    <h2>Apoiadores</h2>
+                </div>
+                <div class="button-header" onclick="change_page_buy()">
+                    <i class="fa-solid fa-house-chimney" style="margin-right: 30px;"></i>
+                    <p>Compre já!</p>
+                </div>
+            </div>
+        </header>
+        <section id="content">
+            <div id="home">
+                <div id="carroussel">
+                    <div class="c_image fade">
+                        <img src="./carrossel/family.jpeg" style="width:100%">
+                    </div>
+                    
+                    <div class="c_image fade">
+                        <img src="./carrossel/Tuskar.jpeg" style="width:100%">
+                    </div>
+                    
+                    <div class="c_image fade">
+                        <img src="./carrossel/dshdsaawdwad.jpeg" style="width:100%">
+                    </div>
+                    
+                    <a class="backward" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="forward" onclick="plusSlides(1)">&#10095;</a>
+
+                    <div style="text-align:center">
+                        <span class="dots" onclick="currentSlide(1)"></span>
+                        <span class="dots" onclick="currentSlide(2)"></span>
+                        <span class="dots" onclick="currentSlide(3)"></span>
+                    </div> 
+                </div>
+                <div id="projeto">
+                    <div id="proj">
+                        <div id="projeto-img">
+                            <img src="https://mundoconectado.com.br/uploads/chamadas/xurrasco-quem-e-o-jovem-de-17-anos-que-viralizou-na-internet-com-lovezinho.jpg">
+                        </div>
+                        <div id="projeto-text">
+                            <h1>
+                                O projeto do paraíso
+                            </h1>
+                            <p>
+                                Imagine um lugar onde você pode ser o verdadeiro dono do seu destino. Aqui, não há regras opressivas ou limitações burocráticas. Você é livre para construir a casa dos seus sonhos, cultivar seu próprio alimento, empreender seus negócios e viver.
+                            </p>
+                            <p>
+                                Nossos lotes de terra são espaços amplos e generosos, onde você pode explorar sua criatividade e dar vida às suas ideias.
+                            </p>
+                            <button onclick="change_page_termos()" id="projeto-button">Junte-se a nós!</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="quemsomos">
+                <div id="logo">
+                    <img src="./umbrellacorporation.jpeg">
+                </div>
+                <div id="text">
+                    <h1>Quem somos</h1>
+                    <p>Somos a Black Umbrella Corporation, um conglomerado de empresas com algumas delas sendo explícitas. Somos uma empresa altamente especializada e técnica, com contatos que envolvem os mais vastos âmbitos da sociedade, permeando desde atividades meramente corporativas até âmbitos do dia a dia de pessoas de todo o mundo. Gostaríamos de no texto a seguir compartilhar algumas informações sobre nossa corporação e seu propósito. 
+                        Missão e Objetivos
+                        A Black Umbrella Corporation foi fundada com o objetivo de fornecer serviços e soluções personalizadas para uma clientela seleta e diversificada da sociedade no geral. Nosso foco principal é atender às necessidades específicas dos nossos clientes, oferecendo discrição, eficiência e resultados excepcionais. Trabalhamos incansavelmente para garantir a satisfação total de nossos clientes,claro que muitas vezes dando voz mais ao dinheiro pago do que a própria necessidade da solicitação, como uma empresa é vital que nossos lucros sejam a prioridade máxima.
+                        Compromisso com a Discrição
+                        Entendemos a importância da discrição no mundo real. A privacidade e a segurança dos nossos clientes são fundamentais para nós. Cada interação e transação são conduzidas com o mais alto nível de confidencialidade. Mantemos um rigoroso código de ética e garantimos que todas as informações sensíveis sejam tratadas com o máximo sigilo. Nossa reputação no submundo é baseada na nossa capacidade de proteger a identidade e os interesses dos nossos clientes.
+                        Parcerias Estratégicas
+                        Ao longo dos anos, desenvolvemos uma rede abrangente de parcerias estratégicas em várias indústrias, permitindo-nos acessar recursos, conhecimentos e oportunidades exclusivas. Essas parcerias nos capacitam a fornecer soluções abrangentes e eficazes para uma ampla gama de necessidades.
+                        Lembre-se de que esta descrição é apenas uma visão geral da Black Umbrella, e muitos detalhes permanecem ocultos por razões de segurança e confidencialidade. Estamos prontos para enfrentar desafios únicos e fornecer soluções sob medida para atender às demandas do submundo. Se você tiver interesse em nossos serviços, entre em contato por canais apropriados e prepare-se para uma experiência incomparável.</p>
+                </div>
+                <div id="imgs">
+                    <img src="./quemsomos1.png">
+                    <img src="./quemsomos2.png">
+                </div>
+            </div>
+            <div id="apoiadores">
+                <div id="left">
+                    <img src="./partners/tiktok.png">
+                    <img src="./partners/cocacola.png">
+                    <img src="./partners/blaze.png">
+                    <img src="./partners/xurras.png">
+                    <img src="./partners/lol.png">
+                </div>
+                <div id="center">
+                    <div id="tiktoks">
+                        <video autoplay muted loop class="tiktok" onclick="desmuteVideo(this)">
+                            <source src="./churras.mp4" type="video/mp4">
+                        </video>
+                        <video autoplay muted loop class="tiktok" onclick="desmuteVideo(this)">
+                            <source src="./charlie.mp4" type="video/mp4">
+                        </video>
+                        <video autoplay muted loop class="tiktok" onclick="desmuteVideo(this)">
+                            <source src="./maninho.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div id="tiktok-text">
+                        <h1>Apoiadores</h1>
+                        <p>No Projeto Éden, acreditamos que a construção de um verdadeiro paraíso só é possível com a colaboração e apoio de pessoas engajadas e comprometidas. Por isso, reconhecemos a importância dos apoiadores em nosso empreendimento, pois eles desempenham um papel fundamental na realização desse sonho coletivo. O Projeto Éden é um sonho compartilhado por todos os envolvidos, e os apoiadores são peças essenciais para torná-lo realidade. Com sua contribuição, estamos construindo um lugar único, onde a liberdade, a sustentabilidade e a qualidade de vida se fundem em perfeita harmonia. O apoio dos indivíduos e organizações que acreditam em nosso propósito nos impulsiona a seguir em frente, superar desafios e alcançar o êxito. Com o apoio de indivíduos e organizações comprometidos, expandimos as possibilidades e o alcance do Projeto Éden. Seja por meio de parcerias estratégicas, investimentos ou mentorias, os apoiadores trazem novas perspectivas, expertise e recursos que impulsionam o nosso empreendimento. Com suas contribuições valiosas, podemos explorar e implementar ideias inovadoras, tornando o Éden ainda mais extraordinário. Em especial agradecemos aos nossos ilustres influenciadores, Neymar (Jogador do Paris Saint-Germain, Xurrasco021 (Influenciador digital da rede social, Tik Tok) e Charlie D'Amelio (Influenciadora digital da rede social, Tik Tok).</p>
+                    </div>
+                </div>
+            </div>
+            <div id="buy-content">
+                <div id="buy">
+                    <form id="buy-forms">
+                        <h1 id="buy-title">Encontre um lote para chamar de seu</h1>
+                        <div class="buy-input">
+                            <i class="fa-light fa-location-dot" style="margin-right: 20px;"></i>
+                            <input type="text" name="local" id="local" placeholder="Local">
+                        </div>
+                        <div class="buy-input">
+                            <i class="fa-light fa-vector-square" style="margin-right: 20px;"></i>
+                            <input type="text" name="area" id="area" placeholder="Área">
+                        </div>
+                        <div class="buy-input">
+                            <i class="fa-light fa-money-bill" style="margin-right: 20px;"></i>
+                            <input type="text" name="preco" id="preco" placeholder="Preço">
+                        </div>
+                        <button id="buy-button" onclick="change_page_termos()">Buscar Imóveis</button>
+                    </form>
+                </div>
+                <div id="convencimento">
+                    <h2>Recomendações para você</h2>
+                    <div id="conve-imgs">
+                        <img src="./pretty_view.png">
+                        <img src="./pretty_view2.png">
+                        <img src="./pretty_view3.png">
+                    </div>
+                    <p>Você está em busca de um <b>lugar perfeito</b> para estabelecer sua família e empresa, cercado pela beleza natural e com total liberdade para viver seus sonhos?</p>
+                    <p>As terras da <b>Black Umbrella</b> são a oportunidade dos seus sonhos se tornarem realidade. Localizadas em um cenário idílico, oferecemos espaços amplos e exuberantes, perfeitos para construir o seu lar.</p>
+                    <h1>Por que escolher os territórios Black Umbrella?</h1>
+                    <p>1. <b>Total Liberdade</b>: Aqui, você será dono do seu próprio destino. Nós valorizamos a individualidade e acreditamos que cada família e empresa deve ser livre para viver conforme seus desejos e aspirações.</p>
+                    <p>2. <b>Natureza Intocada</b>: As terras da Black Umbrella são um verdadeiro tesouro natural. Rios cristalinos, montanhas majestosas e uma flora exuberante esperam por você.</p>
+                    <p>3. <b>Proteção Judicial</b>: se algum governante autoritário quiser ACABAR com suas liberdades dentro do seu território, temos uma equipe de profissionais do Direito pronta para defender a “sua” propriedade, afinal, nós estamos aqui para trabalhar por você!</p>
+                    <h1>O Contrato da Liberdade</h1>
+                    <p>Para viver nas nossas terras exuberantes, vamos exigir de você um custo simbólico de 4$ para a manutenção da nossa organização. Além disso, vocês serão carinhosamente obrigados a produzir vídeos de dancinhas totalmente inofensivos para espalhar a cultura saudável da Black Umbrella!</p>
+                    <p>Venha fazer parte disso!</p>
+                </div>
+            </div>
+            <div id="termos">
+                <div id="termo">
+                    <h1 style="font-size: 40px;">TERMOS E CONDIÇÕES</h1>
+                    <p style="font-size: 22px;">Os presentes termos de condição estabelecem as condições gerais para a utilização dos serviços oferecidos pela Black Umbrella. Ao acessar ou utilizar nossos serviços, você concorda em cumprir estes termos em sua totalidade. Caso não concorde com alguma disposição aqui presente, pedimos que não continue a utilizar nossos serviços <b>DE MANEIRA ALGUMA.</b></p>
+                    <p style="font-size: 22px;"><b>Cadastro e Responsabilidades</b></p>
+                    <p style="font-size: 22px;">2.1. Para utilizar nossos serviços, é necessário efetuar um cadastro prévio. Ao se cadastrar, você declara que todas as informações fornecidas são verdadeiras, precisas e completas.</p>
+                    <p style="font-size: 22px;">2.2. Você é responsável pela segurança e confidencialidade das suas informações de acesso. Qualquer atividade realizada em sua conta é de sua inteira responsabilidade.</p>"
+                    <p style="font-size: 22px;">2.3. Ao utilizar nossos serviços, você concorda em fornecer informações atualizadas e corretas sobre os imóveis que deseja comprar, vender ou alugar, bem como todas as suas próprias informações pessoais.</p>
+                    <p style="font-size: 22px;"><b>Serviços e Propriedade Intelectual</b></p>
+                    <p style="font-size: 22px;">3.1. A Black Umbrella oferece serviços de intermediação na compra, venda e aluguel de imóveis, além de outras atividades relacionadas.</p>
+                    <p style="font-size: 22px;">3.2. Todo o conteúdo presente em nosso site, incluindo imagens, textos, logotipos, marcas registradas e qualquer outra propriedade intelectual, é de nossa exclusiva propriedade ou de terceiros devidamente autorizados.</p>
+                    <p style="font-size: 22px;">3.3. É proibido o uso, reprodução, distribuição ou modificação do nosso conteúdo sem autorização prévia por escrito.</p>
+                    <p style="font-size: 22px;"><b>Responsabilidades da Imobiliária</b></p>
+                    <p style="font-size: 22px;">4.1. Black Umbrella se esforça para fornecer informações precisas e atualizadas sobre os lotes disponíveis em nosso site.</p>
+                    <p style="font-size: 22px;">4.2. Não garantimos a disponibilidade, a qualidade ou a adequação dos lotes anunciados em nosso site. Recomendamos que você realize as devidas diligências antes de fechar qualquer negócio.</p>
+                    <p style="font-size: 22px;">4.3. A Black Umbrella se reserva o direito de modificar, suspender ou encerrar seus serviços a qualquer momento, sem aviso prévio. Se lembre sempre de pagar o suficiente.</p>
+                    <p style="font-size: 22px;"><b>Responsabilidades do Usuário</b></p>
+                    <p style="font-size: 22px;">5.1. Você concorda em utilizar nossos serviços talvez de forma ética e em conformidade com consideração aos direitos humanos.</p>
+                    <p style="font-size: 22px;">5.2. Você é responsável por manter a veracidade e a legalidade das informações fornecidas sobre os imóveis e sobre si mesmo, caso contrário será devidamente punido.</p>
+                    <p style="font-size: 22px;">5.3. É proibido utilizar nossos serviços para atividades ilegais, fraudulentas ou que violem os direitos de terceiros, se lembre sempre de pagar bastante :).</p>
+                    <p style="font-size: 22px;"><b>Privacidade</b></p>
+                    <p style="font-size: 22px;">6.1. A Black Umbrella valoriza a sua privacidade dependendo do quão disposto você está a lutar por ela.</p>
+                    <p style="font-size: 22px;">6.2. A Black Umbrella, confiscará e destruirá, toda e qualquer arma de fogo ou semelhantes que possam ameaçar a vida de outros detentores de propriedade.</p>
+                    
+                </div>
+            </div>
+        </section>
+        <footer id="rodape">
+        </footer>
+    </div>
+</body>
+</html>
